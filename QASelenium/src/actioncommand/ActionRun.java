@@ -10,7 +10,7 @@ public class ActionRun {
 
 	public static void main(String[] args) throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "C:\\Selenium Downloads\\Browsers Drivers\\chromedriver_win32 (1)\\chromedriver.exe");
-		WebDriver br = new ChromeDriver();
+		WebDriver br = new ChromeDriver(); // open the browser
 		br.get("http://apps.qaplanet.in/hrm/login.php");
 		
 		Actions act = new Actions(br);
