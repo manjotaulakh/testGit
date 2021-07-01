@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Chrome">
+  <parameter name="browser" value="gg" />
+    <classes>
+     <class name="testNGFramework.CrossBrowser"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  
+   <test name="FireFox">
+  <parameter name="browser" value="ff" />
+    <classes>
+     <class name="testNGFramework.CrossBrowser"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  </suite> <!-- Suite -->
