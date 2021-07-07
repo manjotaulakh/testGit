@@ -31,7 +31,7 @@ public class testCase1 {
 			 Login.click();
 			 String title= br.getTitle();
 			 System.out.println(title);
-			 
+			 //update by sadar
 			 if(br.getTitle().equals("OrangeHRM")) {
 				 
 				 System.out.println("Pass- confirmation page is displayed ");
